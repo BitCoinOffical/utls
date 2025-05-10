@@ -1,6 +1,6 @@
 package utls
 
-func Contains(a []string, x string) bool {
+func InStrSlice(a []string, x string) bool {
 	for _, i := range a {
 		if x == i {
 			return true
@@ -8,7 +8,7 @@ func Contains(a []string, x string) bool {
 	}
 	return false
 }
-func ContainsINT(a []int, x int) bool {
+func InIntSlice(a []int, x int) bool {
 	for _, i := range a {
 		if x == i {
 			return true
