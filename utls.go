@@ -8,3 +8,11 @@ func Contains(a []string, x string) bool {
 	}
 	return false
 }
+func ContainsINT(a []int, x int) bool {
+	for _, i := range a {
+		if x == i {
+			return true
+		}
+	}
+	return false
+}
